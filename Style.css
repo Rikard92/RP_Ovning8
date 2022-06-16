@@ -1,0 +1,63 @@
+h1 {
+    text-align:center;
+}
+h2 {
+    text-align:center;
+}
+.header{
+    border: 3px solid black
+    
+}
+.content{
+    position: absolute;
+    top: 200px;    
+    right: 50%;
+    transform: translate(+50%);
+    width: 60%;
+    height: 80%;;
+    overflow: auto;
+    border: 3px solid rgb(255, 70, 70)
+}
+.wraper{
+    
+    position: relative;
+}
+
+.kaffe-party{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 50%;
+    min-height: 200px;
+    border: 3px solid #196f97;
+}
+.kaffe-maschine{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 49%;
+    border: 3px solid #971982;
+}
+
+.the-footer{
+    position: absolute;
+    background-color: crimson;
+    width: 100%;
+    bottom: 0;
+}
+ul.navbar-list{
+    padding-left: 0px;
+    background-color: #3D99CE;
+    text-align: center;
+}
+ul.navbar-list > li {
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  ul.navbar-list > li:hover {
+    background-color: #2779BF;
+  }
+  ul.navbar-list > li > a {
+    color: white;
+    text-decoration: none;
+  }
