@@ -14,36 +14,40 @@ h2 {
     right: 50%;
     transform: translate(+50%);
     width: 60%;
-    height: 80%;;
-    overflow: auto;
+    min-height: 72%;
     border: 3px solid rgb(255, 70, 70)
-}
-.wraper{
-    
-    position: relative;
-}
+    }
 
 .kaffe-party{
-    position: absolute;
+    position: fixed;
     top: 0px;
     right: 0px;
     width: 50%;
-    min-height: 200px;
+    height:100%;
     border: 3px solid #196f97;
 }
 .kaffe-maschine{
-    position: absolute;
+    position: fixed;
     top: 0px;
     left: 0px;
-    width: 49%;
+    width: 50%;
+    height:100%;
     border: 3px solid #971982;
+}
+.fill{
+    height: 60px;
 }
 
 .the-footer{
-    position: absolute;
+    position: fixed;
     background-color: crimson;
-    width: 100%;
-    bottom: 0;
+    right: 50%;
+    transform: translate(+50%);
+    width: 60%;
+    bottom: -10px;
+}
+.navbar{
+    transform: translate(+43%);
 }
 ul.navbar-list{
     padding-left: 0px;
